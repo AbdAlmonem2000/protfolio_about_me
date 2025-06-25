@@ -1,22 +1,18 @@
 'use client';
 
-
-import React from 'react'
+import React, { useEffect } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faHtml5, faCss3Alt, faJs, faBootstrap, faReact,faGitAlt, faGithub, faWordpress, faSass, faGoogle} from '@fortawesome/free-brands-svg-icons';
+import { faHtml5, faCss3Alt, faJs, faBootstrap, faReact, faGitAlt, faGithub, faWordpress, faSass, faGoogle } from '@fortawesome/free-brands-svg-icons';
+import { faCode, faDatabase, faCodeBranch, faGlobe, faBolt, faPuzzlePiece, faNetworkWired } from '@fortawesome/free-solid-svg-icons';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import {faCode, faDatabase, faCodeBranch,faGlobe, faBolt, faPuzzlePiece, faNetworkWired} from '@fortawesome/free-solid-svg-icons';
-
 import Slider from 'react-slick';
 
 export default function About() {
 
-
-  AOS.init();
-
-
-
+  useEffect(() => {
+    AOS.init();
+  }, []);
 
   const skills = [
     { name: 'HTML5', icon: faHtml5 },
@@ -56,17 +52,15 @@ export default function About() {
 
   return (
     <section className="py-40 bg-gray-50 px-6" id="about" data-aos="fade-up" data-aos-duration="700">
-      <div className="max-w-6xl mx-auto  flex-col md:flex-row gap-12 items-center">
+      <div className="max-w-6xl mx-auto flex-col md:flex-row gap-12 items-center">
 
-        {/* Left: Description */}
-        <div className="flex-1 space-y-6 text-center md:text-left  bg-gray-100 p-11 rounded-md shadow-lg">
+        <div className="flex-1 space-y-6 text-center md:text-left bg-gray-100 p-11 rounded-md shadow-lg">
           <h2 className="text-4xl font-bold text-gray-800 pb-11">About Me</h2>
           <p className="text-gray-600 leading-relaxed text-justify">
             I am a passionate and detail-oriented frontend developer with strong knowledge in modern web technologies. I enjoy turning complex problems into elegant and user-friendly interfaces. My skill set includes everything from semantic HTML and responsive design, to modern frameworks like React and Next.js, and best practices in SEO and Git version control.
           </p>
         </div>
 
-        {/* Right: Skills Slider */}
         <div className="flex-1 w-full py-16">
           <Slider {...settings}>
             {skills.map((skill, index) => (
