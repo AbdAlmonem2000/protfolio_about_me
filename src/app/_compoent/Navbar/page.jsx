@@ -16,7 +16,7 @@ export default function Navbar() {
           <span className="self-center text-2xl font-semibold whitespace-nowrap text-blak">. abdElmonem</span>
         </a>
         <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-          <a target='_blank' href='https://acrobat.adobe.com/id/urn:aaid:sc:EU:d53d442d-c558-488e-aae0-f558eac84b6f '  type="button" className="text-white bg-purple-700 hover:bg-purple-800   rounded-lg text-sm px-4 py-2 text-center dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-800 cursor-pointer font-bold">C V
+          <a target='_blank' href='https://drive.google.com/file/d/1CyGpx2kwuglk0us9XZkW-HjXW1RY_Qe4/view?usp=sharing'  type="button" className="text-white bg-purple-700 hover:bg-purple-800   rounded-lg text-sm px-4 py-2 text-center dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-800 cursor-pointer font-bold">C V
             <FontAwesomeIcon className='text-gray-50 ms-2' icon={faFilePdf} />
 
           </a>
