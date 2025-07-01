@@ -43,7 +43,7 @@ export default function Header() {
           <div className="flex gap-6 mt-6 justify-center md:justify-start">
             {[
               { icon: faInstagram, link: 'https://www.instagram.com/3body_sal?igsh=Z2hoZGtscmM5aDR2 ' },
-              { icon: faLinkedinIn, link: 'www.linkedin.com/in/abod-ahmed-45398b290' },
+              { icon: faLinkedinIn, link: 'https://www.linkedin.com/in/abod-ahmed-45398b290?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app ' },
               { icon: faGithub, link: 'https://github.com/AbdAlmonem2000' },
               { icon: faWhatsapp, link: 'https://wa.me/966538259830' },
             ].map(({ icon, link }, i) => (
