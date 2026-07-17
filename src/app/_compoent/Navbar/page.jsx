@@ -24,7 +24,7 @@ export default function Navbar() {
         <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
           <a
             target="_blank"
-            href="https://drive.google.com/file/d/1CyGpx2kwuglk0us9XZkW-HjXW1RY_Qe4/view?usp=sharing"
+            href="https://drive.google.com/file/d/1bnoOLytQsmmllAYFHkop4fHaqm6eIvy4/view?usp=sharing"
             className="text-white bg-purple-700 hover:bg-purple-800 rounded-lg text-sm px-4 py-2 text-center dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-800 cursor-pointer font-bold"
           >
             C V
