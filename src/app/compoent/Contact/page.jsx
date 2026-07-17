@@ -54,7 +54,7 @@ export default function Contact() {
           <div className="flex items-center font-bold gap-3 mb-4">
             <FaEnvelope />
             <p>
-              3bodahmed2000@gmail.com
+              monem.sal1012@gmail.com
             </p>
           </div>
 
