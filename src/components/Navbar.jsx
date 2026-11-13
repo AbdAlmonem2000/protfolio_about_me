@@ -12,7 +12,7 @@ const links = [
   { id: 'contact', label: 'Contact' },
 ];
 
-const CV_URL = 'https://drive.google.com/file/d/1CyGpx2kwuglk0us9XZkW-HjXW1RY_Qe4/view?usp=sharing';
+const CV_URL = 'https://drive.google.com/file/d/1bnoOLytQsmmllAYFHkop4fHaqm6eIvy4/view?usp=sharing';
 
 function Logo() {
   return (

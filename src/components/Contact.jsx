@@ -84,11 +84,11 @@ export default function Contact() {
           <h3 className="relative mb-8 text-2xl font-bold">Find Me ↷</h3>
 
           <a
-            href="mailto:3bodahmed2000@gmail.com"
+            href="mailto:monem.sal1012@gmail.com"
             className="relative mb-5 flex items-center gap-3 font-semibold transition hover:translate-x-1"
           >
             <span className="flex h-10 w-10 items-center justify-center rounded-full bg-white/20"><FaEnvelope /></span>
-            3bodahmed2000@gmail.com
+            monem.sal1012@gmail.com
           </a>
 
           {[
